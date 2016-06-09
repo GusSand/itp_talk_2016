@@ -30,10 +30,10 @@ ipython notebook
 
 A tab should open up in your browser at `http://localhost:8888`
 
-Happy pandas!
+## Happy pandas!
 
-```
-
+<br>
+<br>
 
 Using Python and Pandas for data analysis
 ===============
