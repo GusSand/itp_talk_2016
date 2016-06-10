@@ -4,19 +4,29 @@
 How to use this tutorial
 ========================
 
+
 You'll need an up-to-date version of IPython Notebook (&gt;= 3.0) and
 pandas (&gt;=0.13) for this to work properly. It's set up to work with Python 2.7.
 
-You can get these using `pip`:
 
-```
-pip install ipython pandas numpy tornado pyzmq jinja2 matplotlib
-```
+# Installation
 
-This can be difficult to get set up and require you to compile
-a whole bunch of things. I instead use and recommend
-[Anaconda](https://store.continuum.io/), which is a Python distribution which
-will give you everything you need. It's free and open source.
+You need to install all the packages you need to do data analysis.  You can install all these using the **Anaconda distribution**  unless you really know what you are doing. 
+
+Installation page:
+[Anaconda](https://store.continuum.io/)
+
+### Instructions:
+* Download the version that suits your needs at [Anaconda](https://store.continuum.io/). I use 2.7
+* Once it's downloaded double click on the package and wait until it installs. 
+* Close and reopen all Terminal windows
+* To make sure it installed correctly:
+	* open a terminal
+	* type "python"
+	* type "import pandas"
+	* you should see ** no errors ** 
+	* Done !
+
 
 Once you have pandas and IPython, you can get going!
 
@@ -54,7 +64,7 @@ that entails.
 I'm working with these datasets right now
 
 * 311 calls in New York
-* Citibike data
+* Movie data
 
 It comes with batteries (data) included, so you can try out all the
 examples right away.
@@ -62,14 +72,16 @@ examples right away.
 Table of Contents
 =================
 
-* [Chapter 0: 10 minutes to Python](http://ttp://nbviewer.ipython.org/github/jvns/pandas-cookbook/blob/master/cookbook/A%20quick%20tour%20of%20IPython%20Notebook.ipynb)
- <br> Might be a little bit more than 10 mins, but shows some basics on Python in regards to Data Analysis. 
-* [Chapter 1: Quick tour of the IPython Notebook](http://nbviewer.ipython.org/github/jvns/pandas-cookbook/blob/master/cookbook/A%20quick%20tour%20of%20IPython%20Notebook.ipynb)
+* [Chapter 0: Getting Ready](https://github.com/GusSand/itp_talk_2016/blob/master/cookbook/Chapter%200%20-%20Getting%20Ready.ipynb)
+ <br> Making sure you have the prereqs 
+* [Chapter 1: Quick tour of the IPython Notebook](https://github.com/GusSand/itp_talk_2016/blob/master/cookbook/Chapter%201%20-%20Tour%20of%20the%20IPython%20Notebook.ipynb)
+ <br> Shows off IPython's awesome features like tab completion and magic functions.
+* [Chapter 2: 20ish minutes to Python](https://github.com/GusSand/itp_talk_2016/blob/master/cookbook/Chapter%202%20-%2020ish%20minutes%20to%20Python.ipynb)
   <br> Shows off IPython's awesome tab completion and magic functions.
-* [Chapter 2: Analyzing NYC 311 Opean Data](http://nbviewer.ipython.org/github/jvns/pandas-cookbook/blob/master/cookbook/Chapter%201%20-%20Reading%20from%20a%20CSV.ipynb)
+* [Chapter 3: Analyzing NYC 311 Open Data](https://github.com/GusSand/itp_talk_2016/blob/master/cookbook/Chapter%203%20-%20%20Analyzing%20NYC%20311%20data.ipynb)
   <br> Reading data from a CSV, finding most common complaints and some plots
-* [Chapter 4: Analyzing CitiBike Data](http://nbviewer.ipython.org/github/jvns/pandas-cookbook/blob/master/cookbook/Chapter%202%20-%20Selecting%20data%20&%20finding%20the%20most%20common%20complaint%20type.ipynb)
-  <br>How to work with multiple files and analyze them. 
+* [Chapter 4: Analyzing MovieLens 1MM Dataset Data](https://github.com/GusSand/itp_talk_2016/blob/master/cookbook/Chapter%204%20-%20%20MovieLens%201%20Million%20DataSet.ipynb)
+  <br>Analyzing the MovieLens 1 Million dataset to find data about movies with multiple tables. 
  
  
 
@@ -85,7 +97,7 @@ create an issue! Send me email! Send a pull request!
 TODO
 ====
 
-* 
+* Add more about matplotlib
 
 License
 =======
