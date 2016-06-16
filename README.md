@@ -1,9 +1,27 @@
 **ITP 2016**
 =================
 
-How to use this tutorial
-========================
 
+Using Python and Pandas for data analysis
+===============
+
+[Python](http://Python.org) is a general purpose programming language that is easy to learn. 
+
+[Pandas](http://pandas.pydata.org/) is a Python library for doing
+data analysis. It's really fast and lets you do exploratory work
+incredibly quickly.
+
+The goal of this cookbook is to give you some concrete examples for
+getting started with pandas. 
+
+
+I'm working with these datasets right now
+
+* 311 calls in New York
+* Movie data
+
+It comes with batteries (data) included, so you can try out all the
+examples right away.
 
 You'll need an up-to-date version of IPython Notebook (&gt;= 3.0) and
 pandas (&gt;=0.13) for this to work properly. It's set up to work with Python 2.7.
@@ -11,12 +29,12 @@ pandas (&gt;=0.13) for this to work properly. It's set up to work with Python 2.
 
 # Installation
 
-You need to install all the packages you need to do data analysis.  You can install all these using the **Anaconda distribution**  unless you really know what you are doing. 
+You need to install all the packages for data analysis.  You can install all these using the **Anaconda distribution**  unless you really know what you are doing. 
 
 Installation page:
 [Anaconda](https://store.continuum.io/)
 
-### Instructions:
+## Instructions:
 * Download the version that suits your needs at [Anaconda](https://store.continuum.io/). I use 2.7
 * Once it's downloaded double click on the package and wait until it installs. 
 * Close and reopen all Terminal windows
@@ -30,9 +48,19 @@ Installation page:
 
 Once you have pandas and IPython, you can get going!
 
+# Download the Tutorial Materials
+
+I would highly recommend using git. Once git is installed, you can clone the material in this tutorial by using the git address shown below:
+
 ```
 git clone https://github.com/GusSand/itp_talk_2016
+``` 
 
+# Using the Tutorial materials
+ 
+Once you have cloned the git repo, you can change to the cookbook directory and run ipython using the following commands:
+
+```
 cd pandas-cookbook/cookbook
 
 ipython notebook
@@ -40,34 +68,11 @@ ipython notebook
 
 A tab should open up in your browser at `http://localhost:8888`
 
-## Happy pandas!
 
 <br>
 <br>
 
-Using Python and Pandas for data analysis
-===============
 
-[Python](http://Python.org) is a general purpose programming language that is easy to learn. 
-
-[Pandas](http://pandas.pydata.org/) is a Python library for doing
-data analysis. It's really fast and lets you do exploratory work
-incredibly quickly.
-
-The goal of this cookbook is to give you some concrete examples for
-getting started with pandas. The [docs](http://pandas.pydata.org/pandas-docs/stable/)
-are really comprehensive. However, I've often had people
-tell me that they have some trouble getting started, so these are
-examples with real-world data, and all the bugs and weirdness
-that entails.
-
-I'm working with these datasets right now
-
-* 311 calls in New York
-* Movie data
-
-It comes with batteries (data) included, so you can try out all the
-examples right away.
 
 Table of Contents
 =================
@@ -84,7 +89,6 @@ Table of Contents
   <br>Analyzing the MovieLens 1 Million dataset to find data about movies with multiple tables. 
  
  
-
 
 Contribute!
 ===========
